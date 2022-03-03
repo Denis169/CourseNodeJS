@@ -2,7 +2,7 @@
   "name": "coursenodejs",
   "version": "1.0.0",
   "description": "My fist project on Node JS",
-  "main": "test.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,14 @@
   },
   "author": "Denis Logimahov",
   "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
   "bugs": {
     "url": "https://github.com/Denis169/CourseNodeJS/issues"
   },
-  "homepage": "https://github.com/Denis169/CourseNodeJS#readme"
+  "homepage": "https://github.com/Denis169/CourseNodeJS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
