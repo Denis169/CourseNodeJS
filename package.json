@@ -1,0 +1,19 @@
+{
+  "name": "coursenodejs",
+  "version": "1.0.0",
+  "description": "My fist project on Node JS",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Denis169/CourseNodeJS.git"
+  },
+  "author": "Denis Logimahov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Denis169/CourseNodeJS/issues"
+  },
+  "homepage": "https://github.com/Denis169/CourseNodeJS#readme"
+}
