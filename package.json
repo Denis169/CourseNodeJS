@@ -4,7 +4,9 @@
   "description": "My fist project on Node JS",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "node app.js Tom 26"
   },
   "repository": {
     "type": "git",
@@ -13,13 +15,10 @@
   "author": "Denis Logimahov",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.3"
+    "nodemon": "^2.0.15"
   },
   "bugs": {
     "url": "https://github.com/Denis169/CourseNodeJS/issues"
   },
-  "homepage": "https://github.com/Denis169/CourseNodeJS#readme",
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  }
+  "homepage": "https://github.com/Denis169/CourseNodeJS#readme"
 }
