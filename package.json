@@ -2,7 +2,7 @@
   "name": "coursenodejs",
   "version": "1.0.0",
   "description": "My fist project on Node JS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
