@@ -1,16 +1,10 @@
-const os = require('os');
-const greeting = require('./greeting');
-const User = require('./User');
-const welcome = require('./Welcome');
+let nodePath = process.argv[0];
+let appPath = process.argv[1];
+let name = process.argv[2];
+let age = process.argv[3];
 
-greeting.name = 'Denis';
-console.log(greeting.name);
-
-welcome.getMorningMessage();
-welcome.getEveningMessage();
-
-let userName = os.userInfo().username;
-
-let man = new User(userName, 32)
-
-man.sayHi();
+console.log("nodePath: " + nodePath);
+console.log("appPath: " + appPath);
+console.log();
+console.log("name: " + name);
+console.log("age: " + age);
