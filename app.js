@@ -1,12 +1,16 @@
-const http = require('http');
+const displaySync = (data, callback) => {
 
-let message = 'Hello Denis';
+  const randInt = Math.random() * (10-1) + 1;
+  const err = randInt > 5 ? new Error('error process, randInt more then five') : null;
 
-http.createServer((request, response) => {
+  setTimeout(() => callback(err, data), 0)
+};
 
-  console.log(message);
-  response.end(message);
+console.log('start program');
 
-}).listen(3000, '127.0.0.1', () => {
-  console.log('Сервер начал прослушивание запросов');
-})
+displaySync('data processing', (err, data) => {
+  if (err) throw err;
+  console.log(data);
+});
+
+console.log('end program');
